@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TatsuTatsu自動車株式会社のホームページです。新時代を牽引する期待のベンチャー企業である。" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <title>タツタツ自動車株式会社</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <img src="./img/tatsutatsu.jpg" alt="logo" class="logo">
+        <h1 class="site-title">
+            <a href="#">TatsuTatsu</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a
+                      href="https://twitter.com/automobile_ofT"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img src="./img/twitter.png" alt="Twitter" class="icon"
+                   /></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+        <picture>
+            <source media="(max-width: 600px)" srcset="./img/car-tatsutatsu.jpg">
+            <img src="./img/car-tatsutatsu.jpg" alt="" />
+        </picture>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <ul>
+            <li>TatsuTatsu株式会社</li>
+            <li>難民支援企業として設立</li>
+        </ul>
+        <p>UNICEF公認の難民支援企業として表れる。(倒産済)<br>また、新事業として自動車製造業に着手した。<br>溶かした1円玉を車体にすることで軽量化した車両の量産に成功。</p>
+    </section>
+
+    <!-- works -->
+    <section id="works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <ul>
+            <li><img src="./img/works1.jpg" alt="works1"></li>
+            <li><img src="./img/works2.jpg" alt="works1"></li>
+            <li><img src="./img/works3.jpg" alt="works1"></li>
+            <li><img src="./img/works4.jpg" alt="works1"></li>
+            <li><img src="./img/works5.jpg" alt="works1"></li>
+            <li><img src="./img/works6.jpg" alt="works1"></li>
+            <li><img src="./img/works7.jpg" alt="works1"></li>
+            <li><img src="./img/works8.jpg" alt="works1"></li>
+            <li><img src="./img/works9.jpg" alt="works1"></li>    
+        </ul>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="wrapper">
+        <h2 class="sec-title">News</h2>
+        <dl>
+            <dt>2023/3/23</dt>
+            <dd>事業不振により北アメリカ及びヨーロッパ市場から全面撤退</dd>
+            <dt>2022/7/7</dt>
+            <dd>本社のロゴをリニューアルしました</dd>
+            <dt>2022/2/22</dt>
+            <dd>新車のデザインを発表</dd>
+            <dt>2022/2/15</dt>
+            <dd>イーロン・マスクから１０億円の資金調達成功</dd>
+            <dt>2021/10/2</dt>
+            <dd>新卒採用開始</dd>
+            <dt>2021/9/22</dt>
+            <dd>コロナ不況による倒産</dd>
+        </dl>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <p>お問い合わせは以下のフォームから送れません</p>
+        <form action="#" method="post">
+            <dl>
+              <dt><label for="name">お名前</label></dt>
+              <dd><input type="text" id="name" /></dd>
+              <dt><label for="email">メールアドレス</label></dt>
+              <dd><input type="email" id="email" /></dd>
+              <dt><label for="content">内容</label></dt>
+              <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="送信" /></div> 
+        </form>
+    </section>    
+</body>
+</html>
